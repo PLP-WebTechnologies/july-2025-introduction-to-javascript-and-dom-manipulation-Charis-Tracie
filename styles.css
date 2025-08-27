@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: linear-gradient(135deg, #ec6666, #8686ee);
+   min-height: 100vh;     
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(207, 247, 144);
+}
+
+h2 {
+  color: #77f0a9;
+}
+
+button {
+  margin: 5px;
+  background-color: #96f7ea;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #8ee9f063;
+  color: rgb(247, 183, 243);
+}
+

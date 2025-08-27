@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Year Campus Admission</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="mainTitle">Campus Admission Portal</h1>
+
+  
+  <section>
+    
+    <h2>Check Admission Eligibility</h2>
+    <label for="kcseGrade">Select your KCSE Grade:</label>
+    <select id="kcseGrade">
+      <option value="">--Select Grade--</option>
+      <option value="A">A</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B">B</option>
+      <option value="B-">B-</option>
+      <option value="C+">C+</option>
+      <option value="C">C</option>
+      <option value="C-">C-</option>
+      <option value="D+">D+</option>
+      <option value="D">D</option>
+      <option value="D-">D-</option>
+      <option value="E">E</option>
+    </select>
+    <button onclick="checkEligibility()">Check Eligibility</button>
+    <p id="eligibilityResult"></p>
+  </section>
+
+  
+  <section>
+    <h2>Fee Estimator</h2>
+    <input type="number" id="units" placeholder="Number of units">
+    <button onclick="estimateFees()">Estimate Fees</button>
+    <p id="feeResult"></p>
+  </section>
+
+  
+  <section>
+    <h2>Available Courses</h2>
+    <button onclick="showCourses()">Show Courses</button>
+    <ul id="courseList"></ul>
+  </section>
+
+  
+  <section>
+    <h2>Admission Dashboard</h2>
+    <button onclick="updateTitle()">Update Title</button>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+    <button onclick="addNotice()">Add Notice</button>
+    <ul id="noticeBoard"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
