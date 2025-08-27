@@ -1,5 +1,5 @@
 
-//Part 1: Variables & Conditionals
+// Variables & Conditionals
 
 function checkEligibility() {
   let grade = document.getElementById("kcseGrade").value; 
@@ -19,7 +19,7 @@ function checkEligibility() {
 }
 
 
-// Part 2: Functions
+//  Functions
 
 function estimateFees() {
   let units = parseInt(document.getElementById("units").value) || 0;
@@ -40,7 +40,7 @@ function formatNotice(msg) {
 }
 
 
-// Part 3: Loops
+//  Loops
 
 function showCourses() {
   let courses = ["Computer Science", "Business Administration", "Education", "Engineering", "Nursing"];
