@@ -58,7 +58,7 @@ function showCourses() {
 }
 
 
-// Part 4: DOM Manipulation
+// DOM Manipulation
 
 function updateTitle() {
   document.getElementById("mainTitle").textContent = "Welcome to Havard University!";
